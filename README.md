@@ -1,10 +1,5 @@
-Here are the final two files to complete your project deliverables. You can create these in the root of your `arm_planner_project/` directory.
 
-### 1. `README.md`
-
-Create a file named `README.md` and paste the following markdown block into it:
-
-```markdown
+markdown
 # Arm Planner: Robotics Manipulator Motion Planning
 
 A completely from-scratch Python motion planning library for a 6-DOF robotic manipulator (UR5). This project parses a URDF, computes Forward and Inverse Kinematics, plans smooth joint-space trajectories, performs self-collision checks, and animates the resulting motion. 
@@ -33,7 +28,6 @@ pip install numpy scipy matplotlib pytest urdf-parser-py
 
 ```
 
-*Note: Ensure the pre-compiled `ur5.urdf` file is placed in the `urdf/` directory.*
 
 ## Usage
 

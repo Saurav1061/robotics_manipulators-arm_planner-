@@ -49,7 +49,7 @@ Upon successful execution, the script generates two files in the `output/` direc
 Run the included Forward Kinematics verification tests using `pytest`:
 
 ```bash
-pytest tests/test_fk.py
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -m pytest tests/test_fk.py
 
 ```
 

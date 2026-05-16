@@ -1,5 +1,4 @@
 
-markdown
 # Arm Planner: Robotics Manipulator Motion Planning
 
 A completely from-scratch Python motion planning library for a 6-DOF robotic manipulator (UR5). This project parses a URDF, computes Forward and Inverse Kinematics, plans smooth joint-space trajectories, performs self-collision checks, and animates the resulting motion. 

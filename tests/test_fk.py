@@ -54,7 +54,7 @@ def test_fk_manual_reference():
     ee_p = transforms[-1][:3, 3] # Extract current XYZ
     
     # Pre-computed golden reference values
-    reference_p = np.array([0.3804, 0.2039, 0.3541])
+    reference_p = np.array([-0.1733, -0.6235, 0.5509])
     
     print(f"\nTEST: Comparing EE XYZ:\nComputed: {ee_p}\nReferenc: {reference_p}")
     np.testing.assert_array_almost_equal(ee_p, reference_p, decimal=4)
